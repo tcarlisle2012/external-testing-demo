@@ -21,11 +21,13 @@ We leverage Open API code generation to automatically generate client code that 
 
 # How to Use this Demo
 
-1. Install open API codegen tool:
+
+1. Copy an api-docs.json file to the root of the repo. I can't include this file in a public repository. 
+2. Install open API codegen tool:
 ```npm install @openapitools/openapi-generator-cli -g```
-2. Run the script: 
+3. Run the script: 
 ```./client-generate.sh```
-3. Watch it automatically build three API clients: java using webclient, kotlin using okhttp3, and javascript. 
+4. Watch it automatically build three API clients: java using webclient, kotlin using okhttp3, and javascript
 
 Notice these client api's are complete, with comments and documentation. This is how most enterprises generate their client API's in the various languages. 
 
