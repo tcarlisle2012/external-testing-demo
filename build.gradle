@@ -15,11 +15,18 @@ configurations {
 }
 
 repositories {
+    flatDir {
+        dirs("/users/tcarlisle/.m2/repository/com/gfs/gordonnow/gordonnow-backend-api-client-java/0.0.1-SNAPSHOT")
+    }
     mavenCentral()
 }
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    //implementation 'io.projectreactor:reactor-core:3.5.1'
+    implementation 'com.gfs.gordonnow:gordonnow-backend-api-client-java:0.0.1-SNAPSHOT'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'

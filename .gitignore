@@ -36,3 +36,8 @@ out/
 
 ### VS Code ###
 .vscode/
+/gordonnow-backend-api-client-java/
+/gordonnow-backend-api-client-javascript/
+/gordonnow-backend-api-client-javascript-apollo/
+/gordonnow-backend-api-client-kotlin/
+/gordonnow-backend-api-client-typescript/
